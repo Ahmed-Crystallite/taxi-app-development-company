@@ -14,7 +14,7 @@ const Banner = ({ data }) => {
                         <h1>{data?.title}</h1>
                         <p>{data?.content}</p>
                         <div className={styles.btnFlex}>
-                            <ButtonCommon txt="Free Consultation" />
+                            <ButtonCommon txt="Consult Now!" />
                         </div>
                     </Col>
                 </Row>

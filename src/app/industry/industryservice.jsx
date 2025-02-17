@@ -26,7 +26,7 @@ const IndustryService = ({ data, list }) => {
                                     <h4>{item.title}</h4>
                                     <p>{item.txt}</p>
                                     <div className={styles.normalButton} onClick={() => handleClick()}>
-                                        <div className={styles.linksBtn}>Let’s Do This!</div>
+                                        <div className={styles.linksBtn}> Let’s Connect!</div>
                                     </div>
                                 </div>
                             ))}

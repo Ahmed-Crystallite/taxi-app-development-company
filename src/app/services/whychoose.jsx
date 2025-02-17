@@ -11,7 +11,7 @@ const WhyChoose = ({ data, list1, list2 }) => {
                     <Col lg={5} md={12} className="my-auto">
                         <h2>{data?.title}</h2>
                         <p>{data?.text}</p>
-                        <ButtonCommon txt="Free Consultation" />
+                        <ButtonCommon txt="Consult for free." />
                     </Col>
                     <Col lg={3} md={6} className="my-auto offset-lg-1 mt-md-0 mt-4 ">
                         <div className={styles.whyBox}>

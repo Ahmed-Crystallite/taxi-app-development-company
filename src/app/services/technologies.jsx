@@ -25,7 +25,7 @@ const Technologies = ({ data, list }) => {
                                 </div>
                             ))}
                         </div>
-                        <ButtonCommon txt="Free Consultation" />
+                        <ButtonCommon txt="I want a Taxi App!" />
                     </Col>
                     <Col lg={4} md={12} className="my-auto offset-lg-1">
                         <Image src={data?.TechImg} alt="TechImg Box" width={500} height={743} className={styles.ImgPhone} />
